@@ -87,6 +87,7 @@ public class UserController extends BaseController {
         // 将以上返回值和状态码OK封装到响应结果中并返回
         return new JsonResult<User>(OK, data);
     }
+    //88
     /**
      * @Author 荣兵强
      * @Description //TODO 退出登录
